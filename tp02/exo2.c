@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-void test_pointeur (void);
-
-int maint(void) {
-
+int maint(void)
+{
+    int a = 5;
+    int *p = &a;
+    printf("a = %d\n", a);
 }
