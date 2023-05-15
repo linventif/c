@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main (void){
+int main(void)
+{
     const float devise = 60;
     float taux = 1.1226;
 
@@ -13,4 +14,3 @@ int main (void){
 
     return 0;
 }
-
