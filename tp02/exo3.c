@@ -1,10 +1,16 @@
 #include <stdio.h>
 
+void somme_et_produit(int a, int b, int *pt_somme, int *pt_produit)
+{
+    *pt_somme = a + b;
+    *pt_produit = a * b;
+}
+
 int main(void)
 {
-    int n, i;
-    n = 36;
-    i = 1;
-    printf("n + i = %d\n", n + i);
+    int a = 5;
+    int b = 10;
+    somme_et_produit(a, b, &a, &b);
+    printf("a = %d ; b = %d\n", a, b);
     return 0;
 }
