@@ -7,18 +7,18 @@
 /* Pour le moment on l'appellera toujours de la manière suivante "int main (void)" */
 /* suivit entre accolades {} de l'ensemble des instructions à exécuter */
 
-int main (void)
+int main(void)
 {
-  /* La seule instruction de notre programme ici est d'afficher "Hello World:!\" */
-  /* Pour cela on appelle la fonction d'affichage "printf" et on lui donne comme paramètre la chaine de caractère voulue. */
-  /* ATTENTION : Toutes les instructions finissent par un ; */
-  printf("Hello world!\n");
+    /* La seule instruction de notre programme ici est d'afficher "Hello World:!\" */
+    /* Pour cela on appelle la fonction d'affichage "printf" et on lui donne comme paramètre la chaine de caractère voulue. */
+    /* ATTENTION : Toutes les instructions finissent par un ; */
+    printf("Hello world!\n");
 
-  /* le "int" dans "int main (void)" signale que l'on doit retourner un entier */
-  /* cet entier est le code d'erreur du programme, il annonce le "nombre d'erreurs" rencontrer par le programme */
-  /* Si l'on arrive jusqu'ici, c'est que l'on a réussi donc on retourne 0 */
-  /* ATTENTION : Votre programme doit toujours finir par un "return 0;" pour indiquer la réussite */
-  return 0;
+    /* le "int" dans "int main (void)" signale que l'on doit retourner un entier */
+    /* cet entier est le code d'erreur du programme, il annonce le "nombre d'erreurs" rencontrer par le programme */
+    /* Si l'on arrive jusqu'ici, c'est que l'on a réussi donc on retourne 0 */
+    /* ATTENTION : Votre programme doit toujours finir par un "return 0;" pour indiquer la réussite */
+    return 0;
 }
 
 /* Pour compiler on exécute la commande : "gcc -Wall main.c" */

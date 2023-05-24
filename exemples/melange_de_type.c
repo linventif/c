@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
   /* Nous déclarons i comme étant un entier (de valeur 66). */
   int i = 66;
@@ -14,6 +14,6 @@ int main (void)
   /* Conclusion, un entier peut être converti en caractère. En fait tout peut être converti en tout */
   /* ATTENTION : il est recommandé de NE PAS UTILISER ces conversions de type */
   /* car leur comportement cache des surprises à qui ne maitrise pas totalement le langage C. */
-  
+
   return 0;
 }
