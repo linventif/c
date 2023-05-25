@@ -70,11 +70,12 @@ int main(void)
     // new tab
     char *tab = nouveau_tableau(10);
     initialise_tableau(tab, 10, 'a');
-    // affiche_tableau(tab, 10);
 
     place_dans_tableau(tab, 10, 2, 'b'); // place 'b' at index 2
 
-    printf("%c\n", lecture_du_tableau(tab, 10, 20)); // prints 'b'
+    printf("%c\n", lecture_du_tableau(tab, 10, 2)); // prints 'b'
+
+    affiche_tableau(tab, 10);
 
     // affiche_tableau(tab, 10);
 
